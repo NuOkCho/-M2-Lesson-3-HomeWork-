@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		44F997A3297DD1CC0023B4DB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F997A2297DD1CC0023B4DB /* main.swift */; };
+		44F997AA297DD3070023B4DB /* Computer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F997A9297DD3060023B4DB /* Computer.swift */; };
+		44F997AC297DD31B0023B4DB /* Laptop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F997AB297DD31B0023B4DB /* Laptop.swift */; };
+		44F997AE297DD33D0023B4DB /* Smartphone.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F997AD297DD33D0023B4DB /* Smartphone.swift */; };
+		44F997B0297DD3840023B4DB /* RepairService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F997AF297DD3840023B4DB /* RepairService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		44F9979F297DD1CC0023B4DB /* (M2)Lesson-3(HomeWork) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "(M2)Lesson-3(HomeWork)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F997A2297DD1CC0023B4DB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		44F997A9297DD3060023B4DB /* Computer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Computer.swift; sourceTree = "<group>"; };
+		44F997AB297DD31B0023B4DB /* Laptop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Laptop.swift; sourceTree = "<group>"; };
+		44F997AD297DD33D0023B4DB /* Smartphone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smartphone.swift; sourceTree = "<group>"; };
+		44F997AF297DD3840023B4DB /* RepairService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepairService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				44F997A2297DD1CC0023B4DB /* main.swift */,
+				44F997A9297DD3060023B4DB /* Computer.swift */,
+				44F997AB297DD31B0023B4DB /* Laptop.swift */,
+				44F997AD297DD33D0023B4DB /* Smartphone.swift */,
+				44F997AF297DD3840023B4DB /* RepairService.swift */,
 			);
 			path = "(M2)Lesson-3(HomeWork)";
 			sourceTree = "<group>";
@@ -120,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44F997AE297DD33D0023B4DB /* Smartphone.swift in Sources */,
+				44F997B0297DD3840023B4DB /* RepairService.swift in Sources */,
+				44F997AA297DD3070023B4DB /* Computer.swift in Sources */,
 				44F997A3297DD1CC0023B4DB /* main.swift in Sources */,
+				44F997AC297DD31B0023B4DB /* Laptop.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
